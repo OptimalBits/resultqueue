@@ -1,13 +1,30 @@
 {
-	"scripts": {
-		"test": "ava"
-	},
-	"devDependencies": {
-		"ava": "^0.25.0",
-		"proxyquire": "^1.8.0",
-		"sinon": "^4.3.0"
-	},
-	"dependencies": {
-		"bull": "^3.3.9"
-	}
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "proxyquire": "^1.8.0",
+    "sinon": "^4.3.0"
+  },
+  "dependencies": {
+    "bull": "^3.3.9"
+  },
+  "name": "resultqueue",
+  "version": "0.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OptimalBits/resultqueue.git"
+  },
+  "author": "Aron Kornhall <aron@kornhall.se>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OptimalBits/resultqueue/issues"
+  },
+  "homepage": "https://github.com/OptimalBits/resultqueue#readme",
+  "description": ""
 }
